@@ -1,0 +1,27 @@
+# .dockerignore - exclude unnecessary files from Docker build
+.git
+.gitignore
+README.md
+.env
+.venv
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.pytest_cache
+.coverage
+.nyc_output
+node_modules
+npm-debug.log*
+.DS_Store
+.vscode/
+.idea/
+uploads/*
+!uploads/.gitkeep
+*.log
+.dockerignore
+Dockerfile
+docker-compose.yml
